@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+:root{
+    --color1: black;
+    --color2: white;
+    --color3: blue;
+    font-size: 18px;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    background-color: var(--color1);
+    text-align: center;
+    height: 50px;
+    word-spacing: 60px;
+}
+
+li{
+    display: inline-block;
+    color: var(--color2);
+    padding-top: 2vh;
+}
+
+.header{
+    text-align: center;
+    background-image: url(https://images4.alphacoders.com/717/717374.jpg);
+    padding: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header h1{
+    color: var(--color2);
+    font-size: 3.5rem;
+}
+
+.Contenido{
+    float: left;
+    width: calc(80% - 80px);
+   min-height: 500px; 
+    padding: 40px;
+    background-color: var(--color1);
+}
+
+.asidebar{
+    width: calc(20% - 20px);
+    float: left;
+    min-height: 500px; 
+    background-position: center;
+    text-align: center;
+    margin-left: 6vw;
+    margin-top: 2vh;
+    background-image: url(https://rare-gallery.com/thumbs/927400-steampunk-gothic-lolita-anime-anime-girls-city.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.articulos{
+    color: var(--color2);
+    margin-bottom: 5vh;
+    
+}
+
+.footer{
+    background-color: var(--color3);
+    color: var(--color1);
+    text-align: center;
+    height: 50px;
+}
+
+.block{
+    clear: both;
+}
+
+.container{
+    background-color: pink;
+}
